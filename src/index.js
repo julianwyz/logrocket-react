@@ -1,6 +1,6 @@
-import { __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED } from 'react-dom';
+import EventPluginHub from 'react-dom/lib/EventPluginHub';
 
-const hub = __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.EventPluginHub;
+const hub = EventPluginHub;
 
 export default function setupReact() {
   hub.injection.injectEventPluginsByName({
